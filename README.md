@@ -1,7 +1,7 @@
 # ServiceNow-Scripting-Examples
 This repository contains collection of ServiceNow scripting examples for ITSM automation.
 
-For ClientScript, I am referencing to a table which has below fileds on the form,
+For ClientScript, I am referencing to a table which has below fileds on the form,,
 
 🟢 Shipping Case
 Caller
