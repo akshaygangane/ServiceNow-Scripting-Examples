@@ -3,7 +3,7 @@ This repository contains collection of ServiceNow scripting examples for ITSM au
 
 For ClientScript, I am referencing to a table which has below fileds on the form,,
 
-🟢 Shipping Case
+🟢 General Information
 Caller
 Number
 Email
