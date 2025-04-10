@@ -3,11 +3,11 @@ This repository contains collection of ServiceNow scripting examples for ITSM au
 
 For ClientScript, I am referencing to a table which has below fileds on the form,,
 
-🟢 General Information
-Caller
-Number
-Email
-Location
+🟢 General Information <br>
+Caller<br>
+Number<br>
+Email<br>
+Location<br>
 Department
 Category
 Sub Category
