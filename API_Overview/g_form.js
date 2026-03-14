@@ -74,9 +74,48 @@ g_form.getValue('u_caller');
 g_form.getDisplayValue('u_caller');
 
 //========================================================
-//It will make the field visible
+//It will make the field visible.
 g_form.setVisible('u_configuration_item',true);
 
-// To clear a field value
+// To clear a field value.
 g_form.clearValue('u_caller');
 
+//To add an option to the choice field.
+g_form.addOPtion('field_name','choice_label','choice_name');
+
+g_form.removeOption('field_name','choice value');
+
+g_form.clearOptions('field_name');
+//Clears all the options of the field.
+
+g_form.isNewRecord();
+//It will tell if it is a new record or not.
+
+
+//If we want to make UI changes on the form like removing a magnifying glass, changing color of text,
+//Changing background color of the field then we will have to use "getElement"
+
+g_form.getElement('Element_id').style.display = 'none';
+ //To get element ID click on ctr + shift + j and in the inspect section hover on the field of the
+ // element that you want to change.
+ //Example
+ g_form.getElement('lookup.u_shipping_case.u_caller').style.display = 'none';
+
+ g_form.getElement('sys_display.u_shipping_case.u_caller').style.color = 'red';
+
+ g_form.getElement('sys_display.u_shipping_case.u_caller').style.backgroundColor = 'white';
+
+
+ //=================================================
+
+//When you want to get reference fields from a field then you will have to use getReference
+
+g_form.getReference('u_caller').first_name;
+//It will provide first name of the selected user in the caller field
+
+g_form.getLableOf('u_short_description');
+// To get label of any field
+
+g_form.save();
+g_form.submit();
+//To save andd submit the record
