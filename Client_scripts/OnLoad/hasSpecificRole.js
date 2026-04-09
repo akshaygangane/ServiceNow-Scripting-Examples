@@ -10,4 +10,4 @@ function onLoad(){
         g_form.setDisplay('state',false);
         g_form.setSectionDisplay('resolution_inf',false);
     }
-}
+} 
